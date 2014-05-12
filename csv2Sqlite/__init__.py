@@ -23,7 +23,7 @@ class csv2Sqlite(csvhelper, sqlitehelper):
 if __name__ == '__main__':
     import os
 
-    dirPath = "C:\work\SVN\Robort for BW\ExcelDataSource\Conver".replace("\\","/")
+    dirPath = "C:\work\SVN\ExcelDataSource\Conver".replace("\\","/")
 
     csv2db = csv2Sqlite()
     csv2db._connect("../BWDB.db")
