@@ -36,7 +36,7 @@ class csvhelper(object):
 
 if __name__ == '__main__':
     csvhelper = csvhelper()
-    dirPath = "C:\\work\\SVN\\Robort for BW\\ExcelDataSource\\Conver\\D_Project Mgmt Summary Reports.csv"#.replace("\\","\\\\")
+    dirPath = "C:\\work\\SVN\\ExcelDataSource\\Conver\\D_Project Mgmt Summary Reports.csv"#.replace("\\","\\\\")
     # tablename = _file[:-4]
     csvhelper.open_csv(dirPath)
     #print csvhelper._fields()
