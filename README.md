@@ -3,6 +3,8 @@ csv2Sqlite
 
 csv 2 sqlite. 
 
+It is a small tool. 
+
 csv fileName will been DB Table Name.
 
 you can edit dirPath and DBpath from __init__.py. and run __init__.py. 
